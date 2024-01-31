@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Model Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(0,0,0,0.7);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: rgba(0,0,0,0.7);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(244, 241, 241, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        strong {
+            font-weight: bold;
+            color: #eceef0;
+        }
+
+        .result-box {
+            background-color: rgba(0,0,0,0.7);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://img.freepik.com/premium-photo/judge-gavel-scales-justice-court-hall-law-concept-judiciary-jurisprudence-justice-copy-space-generative-ai-illustrator_993599-3826.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1700524800&semt=ais" alt="Background Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+    <div class="container">
+        <h1 style="color: white">ML Model Result</h1>
+        <!-- Display the output of your ML model here -->
+        <div class="result-box">
+            <p style="color: white"> The output of your ML model: </p>
+            <p style="color: white; text-align: center;">{{ predictions }} Days</p>
+        </div>
+    </div>
+</body> 
+</html>
