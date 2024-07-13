@@ -1,4 +1,4 @@
-# Judicial-Analytics-App
+# Judicial-Analytics-App : LitigationTimer
 
 # Home Page
 ![image](https://github.com/user-attachments/assets/5da4b7ca-9395-474e-becf-d30e835ef9eb)
